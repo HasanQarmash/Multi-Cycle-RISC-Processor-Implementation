@@ -1,0 +1,57 @@
+# Verilog/VHDL simulation files
+*.vcd
+*.wlf
+*.vstf
+*.log
+*.history
+
+# ModelSim/QuestaSim files
+work/
+transcript
+*.mpf
+*.qpg
+*.qtl
+
+# Compilation artifacts
+*.erf
+*.sth
+vcp_cmd.log
+vlog.cmd
+
+# IDE files
+*.duser
+*.wsw
+*.aws
+*.wsp
+
+# Library files
+*.lib
+*.mgf
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.tmp
+*.bak
+
+# Build directories
+compile/
+log/
+Our_arc/Our_arc/
+
+# Specific project files that are generated
+library.cfg
+projlib.cfg
+compilation.order
+synthesis.order
+default_compile.do
+Edfmap.ini
+error_detection_results.txt
+stage1_errors.txt
+stage1_test_results.txt
+stage2_errors.txt
+stage2_test_results.txt
+controlUnitTestBench.vcd
