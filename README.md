@@ -79,6 +79,8 @@ Format: [Opcode(4)] [Rd(3)] [Rs1(3)] [Rs2(3)] [Unused(3)]
 | `ADD`       | 0001   | Reg(Rd) = Reg(Rs1) + Reg(Rs2) |
 | `SUB`       | 0010   | Reg(Rd) = Reg(Rs1) - Reg(Rs2) |
 
+<img width="767" height="141" alt="image" src="https://github.com/user-attachments/assets/31bbf420-f855-48a9-8ada-07efe2e365d7" />
+
 ### I-Type Instructions (Immediate Operations)
 
 ```
@@ -94,6 +96,11 @@ Format: [Opcode(4)] [m(1)] [Rd(3)] [Rs1(3)] [Immediate(5)]
 | `LBs`       | 0110   | Load byte signed               |
 | `SW`        | 0111   | Mem[Reg(Rs1) + Imm] = Reg(Rd)  |
 
+<img width="583" height="159" alt="image" src="https://github.com/user-attachments/assets/d5c8da36-7f7b-4fbd-99ae-ae0c596307cd" />
+
+<img width="602" height="188" alt="image" src="https://github.com/user-attachments/assets/37fe0240-a9e2-44f7-9183-d1edb58add1e" />
+
+
 ### Branch Instructions
 
 | Instruction | Opcode | Description            |
@@ -102,6 +109,8 @@ Format: [Opcode(4)] [m(1)] [Rd(3)] [Rs1(3)] [Immediate(5)]
 | `BLT/BLTZ`  | 1001   | Branch if less than    |
 | `BEQ/BEQZ`  | 1010   | Branch if equal        |
 | `BNE/BNEZ`  | 1011   | Branch if not equal    |
+
+<img width="886" height="530" alt="image" src="https://github.com/user-attachments/assets/87b1d5eb-3c0f-40dc-abfe-13071ed25cc2" />
 
 ### J-Type Instructions (Jump Operations)
 
@@ -115,6 +124,11 @@ Format: [Opcode(4)] [Jump Offset(12)]
 | `CALL`      | 1101   | Call subroutine, save return address |
 | `RET`       | 1110   | Return from subroutine               |
 
+<img width="925" height="390" alt="image" src="https://github.com/user-attachments/assets/9f1ef1c6-10c9-4520-a284-0497eb56b3d5" />
+
+<img width="915" height="406" alt="image" src="https://github.com/user-attachments/assets/58fa244d-8e15-48af-a5d3-0ec6936ae2da" />
+
+
 ### S-Type Instructions (Store)
 
 ```
@@ -124,6 +138,9 @@ Format: [Opcode(4)] [Rs(3)] [Immediate(9)]
 | Instruction | Opcode | Description         |
 | ----------- | ------ | ------------------- |
 | `SV`        | 1111   | Mem[Rs] = Immediate |
+
+<img width="880" height="366" alt="image" src="https://github.com/user-attachments/assets/cde49a90-ea56-47ac-9061-d24d36e04028" />
+
 
 ## ⚙️ Execution Stages
 
