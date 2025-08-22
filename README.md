@@ -37,6 +37,8 @@ This project implements a **16-bit RISC processor** with a **multi-cycle archite
 
 ## 🏗️ Architecture Features
 
+<img width="1394" height="685" alt="image" src="https://github.com/user-attachments/assets/7403ce70-0496-4945-946b-22c593d61e6b" />
+
 ### Processor Specifications
 
 | Feature              | Specification                                  |
@@ -425,7 +427,7 @@ This is an academic project, but suggestions and improvements are welcome! Feel 
 ## 📞 Contact
 
 **Hasan Qarmash**  
-📧 [Email Contact]  
+📧 [Email : qarmash.hasan@gmail.com]  
 🎓 Birzeit University - Electrical and Computer Engineering
 
 ---
