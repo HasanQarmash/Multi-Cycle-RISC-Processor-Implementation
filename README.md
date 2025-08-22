@@ -291,8 +291,8 @@ Our_arc/
 1. **Clone the repository**
 
    ```bash
-   git clone [repository-url]
-   cd Our_arc
+   git clone https://github.com/HasanQarmash/Multi-Cycle-RISC-Processor-Implementation.git
+   cd Multi-Cycle-RISC-Processor-Implementation
    ```
 
 2. **Compile the design**
