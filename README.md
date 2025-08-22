@@ -63,6 +63,8 @@ This project implements a **16-bit RISC processor** with a **multi-cycle archite
 
 ## 📚 Instruction Set Architecture (ISA)
 
+<img width="5229" height="3060" alt="image" src="https://github.com/user-attachments/assets/18d6db24-9fa4-4c3e-8e06-ce8131f57d0c" />
+
 The processor supports **21 instructions** across 4 instruction types:
 
 ### R-Type Instructions (Register-to-Register)
